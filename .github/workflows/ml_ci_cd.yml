@@ -15,3 +15,5 @@ jobs:
       run: echo "hello modelops workflow …"
     - name: python version
       run: python --version
+    - name: pip install
+      run: python install -r requirements.txt
