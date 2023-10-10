@@ -13,3 +13,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: hello-modelops-world
       run: echo "hello modelops workflow …"
+    - name: python version
+      run: python --version
